@@ -1,11 +1,13 @@
 // Array de produtos com estoque
 const produtos = [
   {
-    nome: samya,
+    id: 1,
+    nome: "samya",
     preco: 10,
-    estoque: 1
+    estoque: 1,
+    imagem: "https://via.placeholder.com/150"
   }
-]
+];
 
 // Carrinho de compras
 const carrinho = [];
@@ -140,3 +142,5 @@ function scrollToCarrinho() {
 document.addEventListener('DOMContentLoaded', () => {
   renderizarProdutos();
   atualizarCarrinho();
+});
+
