@@ -4,10 +4,17 @@ const produtos = [
     id: 1,
     nome: "Samya",
     preco: 10,
-    estoque: 1,
+    estoque: 3,
     imagem: "https://via.placeholder.com/150"
+  },
+  {
+    id: 2,
+    nome: "Teste Produto 1",
+    preco: 15,
+    estoque: 25,
+    imagem: "https://images.pexels.com/photos/2531237/pexels-photo-2531237.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
   }
-]
+];
 
 
 // Carrinho de compras
