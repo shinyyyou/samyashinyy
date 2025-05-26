@@ -5,14 +5,14 @@ const produtos = [
     nome: "Samya",
     preco: 10,
     estoque: 3,
-    imagem: "https://dus6dayednven.cloudfront.net/app/uploads/2020/12/JEAN-PAUL-DE-LA-HARPE.jpg"
+    imagem: "https://acdn-us.mitiendanube.com/stores/001/999/459/products/rimel-melu-3-df17a64265a0e9b71016987775670146-1024-1024.png"
   },
   {
     id: 2,
     nome: "Teste Produto 1",
     preco: 15,
     estoque: 25,
-    imagem: "https://images.pexels.com/photos/2531237/pexels-photo-2531237.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+    imagem: "https://static.cdnlive.com.br/uploads/790/produto/17244233603599_thumb.png"
   }
 ];
 
