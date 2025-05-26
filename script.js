@@ -2,12 +2,13 @@
 const produtos = [
   {
     id: 1,
-    nome: "samya",
+    nome: "Samya",
     preco: 10,
     estoque: 1,
-    imagem: "https://img.redbull.com/images/c_limit,w_1500,h_1000/f_auto,q_auto/redbullcom/2023/10/16/urwbcyb8ld26j0cuhhfr/surfe-eclipse-italo-ferreira-1"
+    imagem: "https://via.placeholder.com/150"
   }
 ];
+
 
 // Carrinho de compras
 const carrinho = [];
