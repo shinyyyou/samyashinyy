@@ -1,9 +1,9 @@
 // Array de produtos com estoque
 const produtos = [
   {
-    "nome": "samya",
-    "preco": 10,
-    "estoque": 1
+    nome: samya,
+    preco: 10,
+    estoque: 1
   }
 ]
 
