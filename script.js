@@ -17,14 +17,14 @@ const produtos = [
   {
     id: 3,
     nome: "Samya",
-    preco: 49.90,
+    preco: 50,
     estoque: 5,
     imagem: "https://acdn-us.mitiendanube.com/stores/001/999/459/products/rimel-melu-3-df17a64265a0e9b71016987775670146-1024-1024.png"
   },
   {
     id: 4,
     nome: "Teste Produto 1",
-    preco: 39.90,
+    preco: 39,
     estoque: 15,
     imagem: "https://static.cdnlive.com.br/uploads/790/produto/17244233603599_thumb.png"
   },
@@ -45,28 +45,28 @@ const produtos = [
   {
     id: 7,
     nome: "Samya",
-    preco: 9.90,
+    preco: 9,
     estoque: 50,
     imagem: "https://acdn-us.mitiendanube.com/stores/001/999/459/products/rimel-melu-3-df17a64265a0e9b71016987775670146-1024-1024.png"
   },
   {
     id: 8,
     nome: "Teste Produto 1",
-    preco: 14.90,
+    preco: 14,
     estoque: 90,
     imagem: "https://static.cdnlive.com.br/uploads/790/produto/17244233603599_thumb.png"
   },
   {
     id: 9,
     nome: "Samya",
-    preco: 21.99,
+    preco: 21,
     estoque: 35,
     imagem: "https://acdn-us.mitiendanube.com/stores/001/999/459/products/rimel-melu-3-df17a64265a0e9b71016987775670146-1024-1024.png"
   },
   {
     id: 10,
     nome: "Teste Produto 1",
-    preco: 29.90,
+    preco: 25,
     estoque: 55,
     imagem: "https://static.cdnlive.com.br/uploads/790/produto/17244233603599_thumb.png"
   }
