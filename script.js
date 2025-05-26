@@ -5,7 +5,7 @@ const produtos = [
     nome: "Samya",
     preco: 10,
     estoque: 3,
-    imagem: "https://via.placeholder.com/150"
+    imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFpkP9MCCaV3Wewbrn4uoS0qYmom0_lcbvvQ&s"
   },
   {
     id: 2,
