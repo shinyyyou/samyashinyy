@@ -13,9 +13,8 @@ const produtos = [
     preco: 15,
     estoque: 25,
     imagem: "https://static.cdnlive.com.br/uploads/790/produto/17244233603599_thumb.png"
-  }
+  },
   {
- {
     id: 3,
     nome: "Samya",
     preco: 49.90,
