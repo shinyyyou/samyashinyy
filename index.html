@@ -1,4 +1,4 @@
-l<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
@@ -9,26 +9,12 @@ l<!DOCTYPE html>
 <body>
  <header>
   <div class="topo">
-   
-    
     <h1 class="titulo">Shinyy You </h1>
-    
     <div class="topo-direita">
       <div class="busca">
         <input type="text" id="campo-busca" placeholder="Buscar produtos..." oninput="filtrarProdutos()" />
         <span class="icone-lupa">🔍</span>
       </div>
-      <div class="produto">
-  <h3>Produto Exemplo</h3>
-  <p>R$ 29,90</p>
-  
-  <label for="quantidade">Qtd:</label>
-  <input type="number" id="quantidade-1" value="1" min="1" max="10">
-
-  <button onclick="adicionarAoCarrinho('Produto Exemplo', 29.90, 'quantidade-1')">Adicionar ao carrinho</button>
-</div>
-
-
       <div class="icone-carrinho" onclick="scrollToCarrinho()">
         🛒 <span id="contador-carrinho">0</span>
       </div>
@@ -41,38 +27,35 @@ l<!DOCTYPE html>
     <a href="#">Ajuda</a>
   </nav>
 </header>
+
 <!-- Banner de Novidades -->
 <div id="banner-novidades">
   <p id="mensagem-novidade">Confira nossas promoções imperdíveis!</p>
 </div>
 
+<div class="container" id="produtos">
+  <!-- Produtos serão inseridos aqui via JS -->
+</div>
 
-
-
-  <div class="container" id="produtos">
-    <!-- Produtos serão inseridos aqui -->
-  </div>
-
-  <div class="carrinho">
+<div class="carrinho">
   <h2>Carrinho de Compras</h2>
   <ul id="lista-carrinho"></ul>
   <p><strong>Total: R$ <span id="total">0.00</span></strong></p>
   <button onclick="finalizarCompra()">Finalizar Compra</button>
 </div>
 
+<footer>
+  <h3>Formas de Pagamento</h3>
+  <div class="pagamentos">
+    <img src="https://img.icons8.com/color/48/000000/visa.png" alt="Visa">
+    <img src="https://img.icons8.com/color/48/000000/mastercard.png" alt="MasterCard">
+    <img src="https://img.icons8.com/color/48/000000/pix.png" alt="Pix">
+    <p>&copy; 2025 Loja Rosa</p>
+  </div>
+</footer>
 
-  <footer>
-    <h3>Formas de Pagamento</h3>
-    <div class="pagamentos">
-      <img src="https://img.icons8.com/color/48/000000/visa.png" alt="Visa">
-      <img src="https://img.icons8.com/color/48/000000/mastercard.png" alt="MasterCard">
-      <img src="https://img.icons8.com/color/48/000000/pix.png" alt="Pix">
-      <p>&copy; 2025 Loja Rosa</p>
-    </div>
-  </footer>
-
-  <script src="script.js"></script>
-  <script>
+<script src="script.js"></script>
+<script>
   const mensagens = [
     "🆕 Chegaram novos acessórios exclusivos!",
     "🔥 Promoções de até 50% só essa semana!",
@@ -86,8 +69,7 @@ l<!DOCTYPE html>
   setInterval(() => {
     indice = (indice + 1) % mensagens.length;
     elementoMensagem.textContent = mensagens[indice];
-  }, 4000); // Troca a cada 4 segundos
+  }, 4000);
 </script>
-
 </body>
 </html>
