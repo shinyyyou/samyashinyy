@@ -68,15 +68,7 @@ header {
 .carrinho h2 {
   color: #e91e63;
 }
-/* Menu hambúrguer */
-.menu-hamburguer {
-  font-size: 2rem;
-  cursor: pointer;
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  color: white;
-}
+
 
 /* Menu oculto por padrão */
 .menu-categorias {
