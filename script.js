@@ -140,4 +140,3 @@ function scrollToCarrinho() {
 document.addEventListener('DOMContentLoaded', () => {
   renderizarProdutos();
   atualizarCarrinho();
-});
