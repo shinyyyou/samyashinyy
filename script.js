@@ -1,21 +1,11 @@
 // Array de produtos com estoque
 const produtos = [
   {
-    id: 1,
-    nome: "Colar Shinyy",
-    preco: 29.9,
-    estoque: 10,
-    imagem: "https://exemplo.com/colar.jpg"
-  },
-  {
-    id: 2,
-    nome: "Pulseira Luxo",
-    preco: 49.9,
-    estoque: 5,
-    imagem: "https://exemplo.com/pulseira.jpg"
+    "nome": "samya",
+    "preco": 10,
+    "estoque": 1
   }
-];
-
+]
 
 // Carrinho de compras
 const carrinho = [];
