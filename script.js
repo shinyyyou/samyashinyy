@@ -6,7 +6,7 @@ const produtos = [
     preco: 10,
     estoque: 1,
     imagem: "https://via.placeholder.com/150"
-  };
+  }
   {
     nome: "teste produto 1",
     preco: 15,
