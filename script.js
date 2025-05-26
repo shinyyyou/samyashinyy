@@ -72,7 +72,6 @@ const produtos = [
   }
 ];
 
-
 // Carrinho de compras
 const carrinho = [];
 
@@ -207,4 +206,3 @@ document.addEventListener('DOMContentLoaded', () => {
   renderizarProdutos();
   atualizarCarrinho();
 });
-
