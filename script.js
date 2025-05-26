@@ -98,3 +98,39 @@ function finalizarCompra() {
   // Abre o WhatsApp em nova aba
   window.open(urlWhatsApp, "_blank");
 }
+let carrinho = [];
+let total = 0;
+
+function adicionarAoCarrinho(nome, preco, idQuantidade) {
+  const quantidade = parseInt(document.getElementById(idQuantidade).value);
+
+  if (quantidade <= 0) {
+    alert("Digite uma quantidade válida.");
+    return;
+  }
+
+  for (let i = 0; i < quantidade; i++) {
+    carrinho.push({ nome, preco });
+  }
+
+  atualizarCarrinho();
+}
+
+function atualizarCarrinho() {
+  const lista = document.getElementById("lista-carrinho");
+  const totalSpan = document.getElementById("total");
+  const contador = document.getElementById("contador-carrinho");
+
+  lista.innerHTML = "";
+  total = 0;
+
+  carrinho.forEach(item => {
+    const li = document.createElement("li");
+    li.textContent = `${item.nome} - R$ ${item.preco.toFixed(2)}`;
+    lista.appendChild(li);
+    total += item.preco;
+  });
+
+  totalSpan.textContent = total.toFixed(2);
+  contador.textContent = carrinho.length;
+}
