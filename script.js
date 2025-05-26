@@ -1,16 +1,11 @@
 // Array de produtos com estoque
-const produtos = [
-  { id: 1, nome: 'Item 1', preco: 49.90, estoque: 5, imagem: 'https://cdn.awsli.com.br/300x300/2314/2314809/produto/216629893/whatsapp-image-2023-05-11-at-14-06-41-comszio9kx.jpeg' },
-  { id: 2, nome: 'Item 2', preco: 199.90, estoque: 3, imagem: 'https://leocosmeticos.vteximg.com.br/arquivos/ids/184358-1000-1000/Iluminador-Compacto-Melu-By-Rose-RRF8622--2-.jpg?v=638139040218500000' },
-  { id: 3, nome: 'Item 3', preco: 29.90, estoque: 10, imagem: 'https://down-br.img.susercontent.com/file/br-11134201-22120-29gl38zl5skv80' },
-  { id: 4, nome: 'Item 4', preco: 149.90, estoque: 2, imagem: 'https://cdn.awsli.com.br/600x1000/1788/1788096/produto/227840187/coco-erpvh05oub.jpg' },
-  { id: 5, nome: 'Item 5', preco: 89.90, estoque: 7, imagem: 'https://cdn.awsli.com.br/600x450/1252/1252066/produto/203102790/tonico_facial_melu_ruby_rose_rr_342_virtual_make_500-rwwnil.jpg' },
-  { id: 6, nome: 'Item 6', preco: 179.90, estoque: 4, imagem: 'https://www.kimake.com.br/image/cache/data/eftr/Img_ftr_rp_799702-1160x1160.JPG?version=20250124193600' },
-  { id: 7, nome: 'Item 7', preco: 59.90, estoque: 6, imagem: 'https://acdn-us.mitiendanube.com/stores/001/920/157/products/img_0854-1aade300e0f36f6faa17081036866586-640-0.jpeg' },
-  { id: 8, nome: 'Item 8', preco: 39.90, estoque: 8, imagem: 'https://d5gag3xtge2og.cloudfront.net/producao/32977058/G/po-compacto-melu-by-ruby-rose.webp' },
-  { id: 9, nome: 'Item 9', preco: 99.90, estoque: 1, imagem: 'https://images.tcdn.com.br/img/img_prod/1074276/gel_creme_facial_melu_by_ruby_rose_40g_667_3_f37f1f0ba313e1aa1cf5fe63e8fa443a.jpg' },
-  { id: 10, nome: 'Item 10', preco: 129.90, estoque: 9, imagem: 'https://down-br.img.susercontent.com/file/br-11134207-7qukw-lk1705qvet1m21' }
-];
+[
+  {
+    "nome": "samya",
+    "preco": 10,
+    "estoque": 1
+  }
+]
 
 // Carrinho de compras
 const carrinho = [];
